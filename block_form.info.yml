@@ -1,0 +1,5 @@
+name: 'Block form'
+type: module
+description: 'Create a custom block with a custom form'
+package: Custom
+core_version_requirement: ^10 || ^11
