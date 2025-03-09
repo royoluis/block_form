@@ -1,0 +1,7 @@
+block.settings.block_form_registration_form:
+  type: block_settings
+  label: 'Registration form block'
+  mapping:
+    example:
+      type: string
+      label: Example

@@ -4,3 +4,5 @@
  * @file
  * Install, update and uninstall functions for the Block form module.
  */
+
+ // @todo Check if "Registration" CT exists when installing this module.
