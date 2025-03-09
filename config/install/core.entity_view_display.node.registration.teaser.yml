@@ -1,0 +1,28 @@
+uuid: 748994c2-36cd-4931-a82e-42146d29f33c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.registration.field_email
+    - field.field.node.registration.field_name
+    - field.field.node.registration.field_phone_number
+    - field.field.node.registration.field_surname
+    - node.type.registration
+  module:
+    - user
+id: node.registration.teaser
+targetEntityType: node
+bundle: registration
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_email: true
+  field_name: true
+  field_phone_number: true
+  field_surname: true

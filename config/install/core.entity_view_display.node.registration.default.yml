@@ -1,0 +1,54 @@
+uuid: d9fccccf-3678-4dd4-9460-a8fb1c86dbf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.registration.field_email
+    - field.field.node.registration.field_name
+    - field.field.node.registration.field_phone_number
+    - field.field.node.registration.field_surname
+    - node.type.registration
+  module:
+    - user
+id: node.registration.default
+targetEntityType: node
+bundle: registration
+mode: default
+content:
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_phone_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_surname:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
